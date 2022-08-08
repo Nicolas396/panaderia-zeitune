@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$colorFondo: beige ;
+
+header {
+  div {
+    li {
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.pan {
+  background-image: url(https://www.elagoradiario.com/wp-content/uploads/2021/01/pan-1140x600.jpg);
+  z-index: 0.5;
+}
+
+body {
+  background-color: $colorFondo;
+}
+
+main {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.fondo {
+  background-color: rgb(36, 146, 78);
+}
+
+.pan {
+  h1,
+  p {
+    color: black;
+  }
+}
+
+.logo {
+  position: absolute;
+  margin: auto;
+}
+
+.letrasPan {
+  background-color: orange;
+  width: 55%;
+  margin: auto;
+  opacity: 1;
+  padding: 2rem;
+}
+
+.mapa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 990px) {
+  .letrasPan {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .letrasPan {
+    width: 100%;
+  }
+}
