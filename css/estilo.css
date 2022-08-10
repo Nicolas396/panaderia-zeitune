@@ -7,11 +7,13 @@ header div li a {
   font-weight: bold;
   text-transform: uppercase; }
 
-h1{padding: 1rem;
-padding-left: 0;}
+h1 {
+  padding: 1rem;
+  padding-left: 0; }
 
-form{padding: 3px;
-  padding-left: 0;}
+form {
+  padding: 3px;
+  padding-left: 0; }
 
 .pan {
   background-image: url(https://www.elagoradiario.com/wp-content/uploads/2021/01/pan-1140x600.jpg);
@@ -49,12 +51,10 @@ main {
 
 @media screen and (max-width: 990px) {
   .letrasPan {
-    width: 75%; } 
-    
-  .panDeMolde{
+    width: 75%; }
+  .panDeMolde {
     width: 80%;
-    padding: 3px;
-  }}
+    padding: 3px; } }
 
 @media screen and (max-width: 480px) {
   .letrasPan {

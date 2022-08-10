@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-$colorFondo: beige ;
-
 header {
   div {
     li {
@@ -16,13 +14,24 @@ header {
     }
   }
 }
+
+h1 {
+  padding: 1rem;
+  padding-left: 0;
+}
+
+form {
+  padding: 3px;
+  padding-left: 0;
+}
+
 .pan {
   background-image: url(https://www.elagoradiario.com/wp-content/uploads/2021/01/pan-1140x600.jpg);
   z-index: 0.5;
 }
 
 body {
-  background-color: $colorFondo;
+  background-color: beige;
 }
 
 main {
@@ -31,7 +40,7 @@ main {
 }
 
 .fondo {
-  background-color: rgb(36, 146, 78);
+  background-color: #24924e;
 }
 
 .pan {
@@ -63,6 +72,11 @@ main {
 @media screen and (max-width: 990px) {
   .letrasPan {
     width: 75%;
+  }
+
+  .panDeMolde {
+    width: 80%;
+    padding: 3px;
   }
 }
 
